@@ -7,3 +7,7 @@ How is the staging area different from the working directory and the repository?
 	Staging area is where all the files that has changes in it will be.
 	Working directory is where all the files will be whether there's changes or not.
 	The value of doing so might be just keeping track of the files that you currently working on. Therefore, it makes version control much more simple and save space.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	git add, git status and git commit per logical change.
